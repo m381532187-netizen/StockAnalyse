@@ -1,0 +1,13 @@
+# 数据源
+baostock        # A股 日线/周线/分钟线 + 换手率（免注册，独立服务器）
+yfinance        # 港股 日线/60分钟（Yahoo）
+akshare         # 兜底 + 港股换手率（东方财富/新浪）
+
+# 计算
+pandas
+numpy
+pandas-ta       # RSI/MACD/KDJ/布林带 等技术指标（纯Python，避开 TA-Lib 编译坑）
+
+# 配置 / 工具
+PyYAML          # 读取 config.yaml
+reportlab       # 生成中文 PDF 报告（内置 STSong-Light CJK 字体，无需外部依赖）

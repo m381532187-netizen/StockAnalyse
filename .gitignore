@@ -1,0 +1,22 @@
+# 含密钥，禁止提交
+config.yaml
+
+# 本地私有监控列表（你的真实关注，不上传）
+watchlist.local.txt
+
+# 原始参考文档（不纳入版本库）
+StockAnalyseStandard.docx
+StockAnalyseStandard.pdf
+
+# 生成的报告
+reports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 临时
+_extracted.txt
+test_list.txt
